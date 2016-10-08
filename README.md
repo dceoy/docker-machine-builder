@@ -1,7 +1,7 @@
 docker-machine-builder
 ======================
 
-Virtual machine builder based on Docker Toolbox for mac OS
+Virtual machine builder based on Docker Toolbox
 
 Supported OS: mac OS
 
@@ -20,7 +20,14 @@ Usage
 3.  Create a virtual machine.
 
     ```sh
-    $ ./create_docker_machine.sh
+    $ ./create_docker_machine.sh --run
     ```
 
     Run './create_docker_machine.sh --help' for information of options.
+
+4.  Run a container.
+
+    ```sh
+    $ eval $(docker-machine env)
+    $ docker-compose up -d
+    ```
