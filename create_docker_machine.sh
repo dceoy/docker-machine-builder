@@ -4,12 +4,12 @@
 #         ./create_docker_machine.sh [ -h | --help | -v | --version ]
 #
 # Description:
-#   Create a virtual machine using for Docker Machine.
+#   Create a virtual machine for Docker Machine.
 #
 # Options:
 #   -h, --help          Print usage
 #   -v, --version       Print version information and quit
-#   --name 'default'    Set the machine name (default: default)
+#   --name 'default'    Set the machine name
 #   --disk '200000'     Set the size of disk for host in MB [$VIRTUALBOX_DISK_SIZE]
 #   --cpus '1'          Set the number of CPUs for the machine [$VIRTUALBOX_CPU_COUNT]
 #   --memory '1024'     Set the size of memory for host in MB [$VIRTUALBOX_MEMORY_SIZE]
